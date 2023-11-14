@@ -1,18 +1,22 @@
 # Easy Proxxon MF70 conversion (WIP)
 
-The [Proxxon MF70](https://www.proxxon.com/us/micromot/37110.php) is a cheap, tiny 3-axis mill that sells for around USD 400, sometimes much cheaper on Craigslist or eBay and is highly popular with hobbyists, especially for CNC conversions.
+This repo contains two easy Proxxon MF70 mill conversions based on 3D printed and off-the-shelf mechanical parts.
 
-As it is a cheap machine, it has a number of shortcomings. I address only one of them here, which is the limited Y axis range of 46mm. In this conversion I extend it to 80+mm.
+The first is a hand mill conversion with Y axis extended from 46mm to 90mm.
 
-You will need a 3D printer that can print PETG or ABS.
+The second is a CNC mill conversion with Y axis extended from 46mm to 90mm.
+
+### What is a Proxxon MF70?
+
+If you are here you probably already have one, but the [Proxxon MF70](https://www.proxxon.com/us/micromot/37110.php) is a cheap, tiny 3-axis mill that sells for around USD 400, sometimes much cheaper on Craigslist or eBay and is highly popular with hobbyists, especially for CNC conversions.
+
+If you wanted a CNC mill for a total cost of less than $600-800, this is it.
 
 ### Why another MF70 conversion?
 
-There are a number of kits on AliExpress to convert this machine, and while it's nice that they use metal parts, they do not address the Y axis limitation, which is a rather big limitation. I wanted something that makes use of as much of the AliExpress metal kit as possible but extends the Y axis, and is easy to put together.
+There are a number of kits on AliExpress to convert this machine, and while it's nice that they use metal parts, they do not address the Y axis limitation, which is a rather big limitation, and they use the self-tapping screws into the aluminum channels which are not a great choice.
 
-There are a number of complicated DIY conversions out there, but I wasn't happy with any of their designs. Some people have effectively replaced the entire machine with conversions. If I wanted to do that I might as well build the machine from scratch! I wanted something simpler that gets me started.
-
-By the way, you can also use this conversion if you just want the extended Y range on a hand-operated mill and don't want to convert to CNC.
+There are a number of complicated DIY conversions out there, but I wasn't happy with any of their designs. Some involve 5 billion parts, some do not even address the Y axis length issue, some people have effectively replaced the entire machine with conversions which is too much for me (If I wanted to do that I might as well build the machine from scratch).
 
 ## Tools
 * 3D printer and PETG, ABS, nylon, or other strong and chemically-resistant filament (do not use PLA!)
@@ -39,7 +43,7 @@ I include McMaster links for all the parts below, if you want to order them all 
 * 6mm x 12mm x 1.5mm oil-impregnated brass thrust washer
 * 6mm x 13mm x 5mm spacer
 * 2 x M3 machine screws, 35mm, partially tapped
-* AliExpress MF70 conversion kit
+* AliExpress MF70 conversion shaft couplers -- you only need the "round parts" from the conversion kit -- there are some sellers which will sell only those parts to you
 
 ### 3D printed parts
 
