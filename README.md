@@ -1,6 +1,6 @@
 # Easy Proxxon MF70 CNC conversion (WIP)
 
-This repo is a Proxxon MF70 CNC conversion based on 3D printed and off-the-shelf mechanical parts, with Y axis extended from 46mm to 90mm and Z axis extended by 15mm.
+This repo is a Proxxon MF70 CNC conversion based on 3D printed and off-the-shelf mechanical parts, with Y axis extended from 46mm to 90mm and Z axis raised by 15mm.
 
 I also include parts for if you just want to extend the Y axis for hand milling only. I'm sure you can figure it out.
 
@@ -8,7 +8,7 @@ I also include parts for if you just want to extend the Y axis for hand milling 
 
 If you are here you probably already have one, but the [Proxxon MF70](https://www.proxxon.com/us/micromot/37110.php) is a cheap, tiny 3-axis mill that sells for around USD 400, sometimes much cheaper on Craigslist or eBay and is highly popular with hobbyists, especially for CNC conversions.
 
-This mill has a number of limitations, but perhaps the biggest of which is that the Y axis is only limited to 46mm of travel. It is fairly straightforward to extend this Y axis to 90mm. The Z axis is also limiting with 70mm of travel, which makes it hard to use a 4th ("A" or rotational) axis. Both of these limitations are addressed in this conversion.
+This mill has a number of limitations, but perhaps the biggest of which is that the Y axis is only limited to 46mm of travel. It is fairly straightforward to extend this Y axis to 90mm. The Z axis is also limiting as it only has 70mm of travel, starts from uselessly low, which makes it hard to use a 4th ("A" or rotational) axis. Both of these limitations are addressed in this conversion.
 
 There are other limitations with this cheap mill but not addressed here. If you have a 3D printer and want a $600 CNC mill this is it. If you want to spend $1000 there are better options available.
 
@@ -20,23 +20,23 @@ The AliExpress conversion kits are cheap but don't address Y axis or Z axis limi
 
 The Robotpark conversion has the same issues as the AliExpress kit and costs 10X as much.
 
-Proxxon's own CNC-ready MF70 allows a greater Y axis travel of 70mm, which is better than the 46mm, but I am achieving 90mm here.
+Proxxon's own CNC-ready MF70 allows a greater Y axis travel of 70mm, which is better than the 46mm, but I am achieving 90mm here. It also does not address the Z axis height.
 
-The Bubblegum conversion does not address the Y axis limitation, and involves more 3D printed parts than I would like to deal with.
+The Bubblegum conversion is a nicely designed kit but addresses neither Y nor Z axis limitations, and involves more 3D printed parts than I would like to deal with.
 
 [This](http://www.jarkman.co.uk/catalog/cnc/mf70.htm) conversion involves taking off the knobs fully and purchasing additional shaft couplers, which
 
-[This](https://www.thingiverse.com/thing:4375769) conversion is a lot of work and addresses backlash but does not solve the Y axis issue.
+[This](https://www.thingiverse.com/thing:4375769) conversion is a lot of work and addresses backlash but does not solve the Y or Z axis limitations.
 
-There are a number of complicated DIY conversions out there, but I wasn't happy with any of their designs. Some involve 5 billion parts, some do not even address the Y axis length issue, some people have effectively replaced the entire machine with conversions which is too much for me (If I wanted to do that I might as well build the machine from scratch).
+There are a number of complicated DIY conversions out there that do address the Y and Z axis limitations, but I wasn't happy with any of their designs or complexity. Some involve 5 billion parts, some involve machining metal parts (which is great after you have a CNC mill but not before), some people have effectively replaced the entire machine with conversions which is too much for me (If I wanted to do that I might as well build the machine from scratch).
 
 ## Tools
 * 3D printer and PETG, ABS, nylon, or other strong and chemically-resistant filament (do not use PLA!)
 * Drill press
-* Normal 3mm drill bit for aluminum
-* Extra long 3mm x 120mm drill bit for aluminum
-* Countersink bit for aluminum
-* Any tool that can cut threaded rods (Dremel with cutting disc, small chop saw, etc.)
+* Normal 3mm drill bit
+* Extra long (120mm long) 3mm drill bit
+* Countersink bit
+* Dremel with cutting disc, or other tool that can cut threaded rods
 
 ## Off-the-shelf parts
 
