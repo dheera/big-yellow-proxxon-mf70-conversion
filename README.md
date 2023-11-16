@@ -60,7 +60,7 @@ If you just want a hand mill with Y axis extension, print everything starting wi
 
 I recommend printing everything at 100% infill with PETG, ABS, nylon, or other good material. I highly recommend you do not use PLA. Don't skimp on the infill, this is a mill, and if you're using PETG it will cost you a whopping $9 to print all these parts at 100%.
 
-I recommend printing parts with large surface area (all-y-channel, cnc-x-rightplate, cnc-y-frontplate) with a brim to avoid lifting and warping at the corners, as the flatness of the bottom surface is crucial. If you don't have lifting/warping problems you can ignore this. For PETG, 2 things help to avoid warping: (a) use a higher bed temp like 90 C (b) use an enclosure or put your 3D printer in a closet so the ambient temperature rises to around 30 C - 40 C.
+I recommend printing parts with large surface area (all-y-channel, cnc-x-rightplate, cnc-y-frontplate) with a brim to avoid lifting and warping at the corners, as the flatness of the bottom surface is crucial. If you don't have lifting/warping problems you can ignore this. Besides using a brim, for PETG, 2 things help to avoid warping: (a) use a higher bed temp like 90 C (b) use an enclosure or put your 3D printer in a closet so the ambient temperature rises to around 30 C - 40 C.
 
 ### Extra hardware
 
