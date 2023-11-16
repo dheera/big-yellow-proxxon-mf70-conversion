@@ -8,13 +8,15 @@ I also include parts for if you just want to extend the Y axis for hand milling 
 
 If you are here you probably already have one, but the [Proxxon MF70](https://www.proxxon.com/us/micromot/37110.php) is a cheap, tiny 3-axis mill that sells for around USD 400, sometimes much cheaper on Craigslist or eBay and is highly popular with hobbyists, especially for CNC conversions.
 
-This mill has a number of limitations, but perhaps the biggest of which is that the Y axis is only limited to 46mm of travel. It is fairly straightforward to extend this Y axis to 90mm. If that is all you would like to do, and keep it as a hand-operated mill, the "hand version" below is for you. If you are going to convert it to CNC, the "CNC version" below addresses (a) the Y axis limitation (b) replaces the self-tapping screws with threaded rods which are stronger (c) allows you to mount a NEMA23 motor using all 4 screws.
+This mill has a number of limitations, but perhaps the biggest of which is that the Y axis is only limited to 46mm of travel. It is fairly straightforward to extend this Y axis to 90mm. The Z axis is also limiting with 70mm of travel, which makes it hard to use a 4th ("A" or rotational) axis. Both of these limitations are addressed in this conversion.
+
+There are other limitations with this cheap mill but not addressed here. If you have a 3D printer and want a $600 CNC mill this is it. If you want to spend $1000 there are better options available.
 
 ### Why another MF70 conversion?
 
 I wasn't fully happy with any of the existing conversions.
 
-The AliExpress conversion kits are cheap but don't address the Y axis limitation, use the self-tapping screws to hold the entire weight of stepper motors which I am not confident about, and the NEMA23 kits use only 2 out of the 4 mounting screws, which I also do not like.
+The AliExpress conversion kits are cheap but don't address Y axis or Z axis limitations, use the self-tapping screws to hold the entire weight of stepper motors which I am not confident about, and the NEMA23 kits use only 2 out of the 4 mounting screws, which I also do not like.
 
 The Robotpark conversion has the same issues as the AliExpress kit and costs 10X as much.
 
@@ -38,7 +40,7 @@ There are a number of complicated DIY conversions out there, but I wasn't happy 
 
 ## Off-the-shelf parts
 
-I include McMaster links for all the parts below, if you want to order them all in one go. If you want to save money you can find similar parts on Amazon or eBay, though there is no way to permalink them.
+I include McMaster links for all the parts below for convenience, if you want to order them all in one go, and to serve as permalinks for what the exact part should look like. However, McMaster is expensive. If you want to save money you can find equivalent parts for almost everything on Amazon or eBay, though there is no way to permalink them as the suppliers are constantly changing.
 
 * 2 x M3 threaded rod cut to 125+4+4+0.5+0.5+5+5 for X axis
 * 2 x M3 threaded rod cut to ? for Y axis
@@ -48,12 +50,15 @@ I include McMaster links for all the parts below, if you want to order them all 
 * 1 x 6x13x7 spacer (if you can't find 7mm, look for 5mm + 2mm)
 * 12 x M5 flat head (countersunk) screws
 * AliExpress MF70 conversion shaft couplers -- you only need the "round parts" from the conversion kit -- there are some sellers which will sell only those parts to you
+* 3 x good quality NEMA23 motors with 5mm mounting holes (some have 4mm holes, but this kit is designed for 5mm)
 
 ### 3D printed parts
 
-For the CNC conversion, print all the parts starting with **all-** and **cnc-** in the **stl/** directory. (If you just want a hand mill with Y axis extension, print everything starting with **all-** and **hand-**.)
+For the CNC conversion, print all the parts starting with **all-** and **cnc-** in the **stl/** directory.
 
-Print everything at 100% infill with PETG, ABS, nylon, or other good material. I highly recommend you do not use PLA.
+If you just want a hand mill with Y axis extension, print everything starting with **all-** and **hand-** and ignore the CNC parts.
+
+I recommend printing everything at 100% infill with PETG, ABS, nylon, or other good material. I highly recommend you do not use PLA. Don't skimp on the infill, this is a mill, and if you're using PETG it will cost you a whopping $8 to print all these parts at 100%.
 
 I recommend printing parts with large surface area (all-y-channel, cnc-x-rightplate, cnc-y-frontplate) with a brim to avoid lifting and warping at the corners, as the flatness of the bottom surface is crucial. If you don't have lifting/warping problems you can ignore this.
 
