@@ -1,5 +1,5 @@
 module pentagon() {
-    translate([0,-8.6,0])
+    translate([0,-8.6-0.25,0])
     polygon(points=[[0,0],[-32.25,11],[-32.25,17.2],[32.25,17.2],[32.25,11]]);
 }
 
@@ -7,7 +7,7 @@ difference() {
     union() {
         intersection() {
     
-            cube_center([70,19.5*2,10],r=1);
+            cube_center([70,19.5*2+.5,10],r=1);
             union() {
     minkowski() {
         linear_extrude(height=15)
@@ -36,7 +36,7 @@ difference() {
         }
         for(i=[-1,1])
             translate([i*12.25,13.5,0])
-            cube_center([6.3,7,20],r=0.5);
+            cube_center([5.8,6.8,14],r=0.5);
         
         for(i=[-1,0,1])
             translate([i*25,14.25,0])

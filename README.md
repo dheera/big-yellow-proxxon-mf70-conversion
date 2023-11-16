@@ -2,19 +2,31 @@
 
 This repo contains two easy Proxxon MF70 mill conversions based on 3D printed and off-the-shelf mechanical parts.
 
-The first is a hand mill conversion with Y axis extended from 46mm to 90mm.
+The first is a hand mill conversion with Y axis extended from 46mm to 90mm (hereinafter referred to as "hand version").
 
-The second is a CNC mill conversion with Y axis extended from 46mm to 90mm.
+The second is a CNC mill conversion with Y axis extended from 46mm to 90mm (hereinafter referred to as "CNC version").
 
 ### What is a Proxxon MF70?
 
 If you are here you probably already have one, but the [Proxxon MF70](https://www.proxxon.com/us/micromot/37110.php) is a cheap, tiny 3-axis mill that sells for around USD 400, sometimes much cheaper on Craigslist or eBay and is highly popular with hobbyists, especially for CNC conversions.
 
-If you wanted a CNC mill for a total cost of less than $600-800, this is it.
+This mill has a number of limitations, but perhaps the biggest of which is that the Y axis is only limited to 46mm of travel. It is fairly straightforward to extend this Y axis to 90mm. If that is all you would like to do, and keep it as a hand-operated mill, the "hand version" below is for you. If you are going to convert it to CNC, the "CNC version" below addresses (a) the Y axis limitation (b) replaces the self-tapping screws with threaded rods which are stronger (c) allows you to mount a NEMA23 motor using all 4 screws.
 
 ### Why another MF70 conversion?
 
-There are a number of kits on AliExpress to convert this machine, and while it's nice that they use metal parts, they do not address the Y axis limitation, which is a rather big limitation, and they use the self-tapping screws into the aluminum channels which are not a great choice.
+I wasn't fully happy with any of the existing conversions.
+
+The AliExpress conversion kits are cheap but don't address the Y axis limitation, use the self-tapping screws to hold the entire weight of stepper motors which I am not confident about, and the NEMA23 kits use only 2 out of the 4 mounting screws, which I also do not like.
+
+The Robotpark conversion has the same issues as the AliExpress kit and costs 10X as much.
+
+Proxxon's own CNC-ready MF70 allows a greater Y axis travel of 70mm, which is better than the 46mm, but I am achieving 90mm here.
+
+The Bubblegum conversion does not address the Y axis limitation, and involves more 3D printed parts than I would like to deal with.
+
+[This](http://www.jarkman.co.uk/catalog/cnc/mf70.htm) conversion involves taking off the knobs fully and purchasing additional shaft couplers, which
+
+[This](https://www.thingiverse.com/thing:4375769) conversion is a lot of work and addresses backlash but does not solve the Y axis issue.
 
 There are a number of complicated DIY conversions out there, but I wasn't happy with any of their designs. Some involve 5 billion parts, some do not even address the Y axis length issue, some people have effectively replaced the entire machine with conversions which is too much for me (If I wanted to do that I might as well build the machine from scratch).
 
@@ -40,9 +52,9 @@ I include McMaster links for all the parts below, if you want to order them all 
 * 2 x M3 threaded rod cut to ? for Y axis
 * 6 x M3 countersunk screws, 12mm, fully tapped
 * 6 x M3 square nut, 5.5mm x 5.5mm x 1.8mm
-* 6mm x 12mm x 1.5mm oil-impregnated brass thrust washer
-* 6mm x 13mm x 5mm spacer
-* 2 x M3 machine screws, 35mm, partially tapped
+* 4 x 6x12x1.5 oil-impregnated brass thrust washer
+* 1 x 6x13x7 spacer (if you can't find 7mm, look for 5mm + 2mm)
+* 12 x M5 flat head (countersunk) screws
 * AliExpress MF70 conversion shaft couplers -- you only need the "round parts" from the conversion kit -- there are some sellers which will sell only those parts to you
 
 ### 3D printed parts
@@ -59,33 +71,41 @@ I recommend printing parts with large surface area (all-y-channel, cnc-x-rightpl
 
 ## Instructions
 
-### First, for both versions
-Remove this Z axis cover and replace it with the modified version which allows an additional 3mm of clearance between the stage and the Z axis column. The cover is not just a cosmetic part! The cover also serves as a physical stop for the Z axis so that your mill head doesn't fall down if it is accidentally driven beyond its limit.
+First, complete part 0 for both versions. Then complete the respective version of part 1 below depending on whether you are doing the hand version or CNC version.
 
-Take apart the 2 axis stage
+### Part 0: for both versions
 
-Run a standard M3 tap through the channels in the Y axis plate
+Remove this Z axis cover, which gives an extra 3mm of clearance to the back side of the mill.
 
-Place the Y axis channel, verify the big square foo is able to run to both ends without obstruction. Note that the orientations MUST be correct, there is only 1 correct orientation of the Y axis channel and 1 correct orientation of  the big square foo. You may want to mark them for your convenience.
+Remove the 2 axis stage and take it apart until you have the X axis looking like this. Note that the "Proxxon" logo is on the front side, but we will take that off later, so you may want to mark the front side of the aluminum plate with a grease pen or scribe. The aluminum plate is subtly NOT symmetrical.
 
-Remove the big square foo, clamp the Y axis channel and drill six 3mm holes through the channel and into the aluminum plate below.
+Drop in the 3D printed "all-y-channel". It should fit snugly. You may have to slightly loosen the screws and tighten them back.
 
-Countersink the aluminum plate from the back.
+With a drill press and regular 3mm drill bit, drill out the 6 marked holes in the channel all the way down and drill fully through the aluminum plate.
 
-Install the square nuts into the channel.
+Countersink the holes from the back of the aluminum plate with a 90 degree countersink bit.
 
-Install the big square foo (with the brass spacer) and channel.
+Remove "all-y-channel", insert the 6 square threaded M3 nuts from the side, and place back.
 
-Fix the channel with M3 12mm countersunk screws from the back.
+Use countersunk M3 screws to fix the channel in place.
 
-### Second (hand version)
+Now remove the end pieces of the Y axis.
 
-Install the back plate with M3 15mm machine screws.
+### Part 1: hand version
 
-Install the front plate with M3 15mm machine screws (hand version) or M3 35mm screws (CNC version).
+Install all-y-backplate on the back side and hand-y-frontplate on the front side using the original self-tapping screws. Note the tiny dot below the axis on each plate, they should both face inwards (toward the aluminum plate).
 
-Install the threaded rod with thrust bearings on both front and back, and tighten the nylon locknut. Do not overtighten!
+Replace the manufacturer knob dial with 3D printed hand-y-knob which has a reduced diameter and will allow the stage to clear it on the top side. You can use paint stick to make the markings more visible.
 
-### Second (CNC version)
+Put the Y axis back together using one lubricated brass washer on each side.
 
-Put everything else back together. For the X and Z axis you can just use the AliExpress kit as-is.
+Put everything else back together.
+
+### Part 1: CNC version
+
+Using a 120mm extra-long M3 drill bit, carefully drill out the 2.5mm channels in both X and Y axes to 3mm. We will put M3 threaded rods though these channels which will hold things much more securely than the original self-tapping screws. Work the drill from both sides to get all the way through the channel.
+
+Install all-y-backplate on the back side. Install cnc-y-frontplate on the front side. Use the threaded rods, washers and M3 locknuts to tighten them all in place.
+
+
+
