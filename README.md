@@ -58,7 +58,7 @@ For the CNC conversion, print all the parts starting with **all-** and **cnc-** 
 
 If you just want a hand mill with Y axis extension, print everything starting with **all-** and **hand-** and ignore the CNC parts.
 
-I recommend printing everything at 100% infill with PETG, ABS, nylon, or other good material. I highly recommend you do not use PLA. Don't skimp on the infill, this is a mill, and if you're using PETG it will cost you a whopping $8 to print all these parts at 100%.
+I recommend printing everything at 100% infill with PETG, ABS, nylon, or other good material. I highly recommend you do not use PLA. Don't skimp on the infill, this is a mill, and if you're using PETG it will cost you a whopping $9 to print all these parts at 100%.
 
 I recommend printing parts with large surface area (all-y-channel, cnc-x-rightplate, cnc-y-frontplate) with a brim to avoid lifting and warping at the corners, as the flatness of the bottom surface is crucial. If you don't have lifting/warping problems you can ignore this.
 
