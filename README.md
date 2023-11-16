@@ -16,15 +16,15 @@ There are other limitations with this cheap mill but not addressed here. If you 
 
 I wasn't fully happy with any of the existing conversions.
 
-The AliExpress conversion kits are cheap but don't address Y axis or Z axis limitations, use the self-tapping screws to hold the entire weight of stepper motors which I am not confident about, and the NEMA23 kits use only 2 out of the 4 mounting screws, which I also do not like.
+The AliExpress conversion kits are cheap but don't address Y axis or Z axis limitations, use self-tapping screws to hold the entire weight of stepper motors which I am not confident about, and use only 2 out of the 4 mounting screws to hold NEMA23 motors, which is not good for stability.
 
-The Robotpark conversion has the same issues as the AliExpress kit and costs 10X as much.
+The Robotpark conversion has the same issues as the AliExpress kit at a 5X-10X markup, and judging from pictures, seems to just use the same parts as the AliExpress kits.
 
-Proxxon's own CNC-ready MF70 allows a greater Y axis travel of 70mm, which is better than the 46mm, but I am achieving 90mm here. It also does not address the Z axis height.
+Proxxon's own CNC-ready MF70 allows a greater Y axis travel of 70mm, which is better than the 46mm, but I am achieving 90mm here. It also does not address the Z axis height at all.
 
-The Bubblegum conversion is a nicely designed kit but addresses neither Y nor Z axis limitations, and involves more 3D printed parts than I would like to deal with.
+The Bubblegum conversion is a nicely designed kit but addresses neither Y nor Z axis limitations, and involves more 3D printed parts and additional parts than I would like to deal with.
 
-[This](http://www.jarkman.co.uk/catalog/cnc/mf70.htm) conversion involves taking off the knobs fully and purchasing additional shaft couplers, which
+[This](http://www.jarkman.co.uk/catalog/cnc/mf70.htm) conversion involves taking off the knobs fully and purchasing additional shaft couplers, which I also didn't want to do, though if you'd like to do that, you can still use the mounting parts in this repo, and might just need to adjust the M5 spacer lengths.
 
 [This](https://www.thingiverse.com/thing:4375769) conversion is a lot of work and addresses backlash but does not solve the Y or Z axis limitations.
 
@@ -56,7 +56,7 @@ I include McMaster links for all the parts below for convenience, if you want to
 
 For the CNC conversion, print all the parts starting with **all-** and **cnc-** in the **stl/** directory.
 
-If you just want a hand mill with Y axis extension, print everything starting with **all-** and **hand-** and ignore the CNC parts.
+If you just want a hand mill with Y axis extension, print everything starting with **all-** and **hand-** and ignore the CNC parts. You also only need a fraction of the off-the-shelf parts above, I'm sure you can figure it out.
 
 I recommend printing everything at 100% infill with PETG, ABS, nylon, or other good material. I highly recommend you do not use PLA. Don't skimp on the infill, this is a mill, and if you're using PETG it will cost you a whopping $9 to print all these parts at 100%.
 
