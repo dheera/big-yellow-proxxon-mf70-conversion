@@ -1,10 +1,8 @@
-# Easy Proxxon MF70 conversion (WIP)
+# Easy Proxxon MF70 CNC conversion (WIP)
 
-This repo contains two easy Proxxon MF70 mill conversions based on 3D printed and off-the-shelf mechanical parts.
+This repo is a Proxxon MF70 CNC conversion based on 3D printed and off-the-shelf mechanical parts, with Y axis extended from 46mm to 90mm and Z axis extended by 15mm.
 
-The first is a hand mill conversion with Y axis extended from 46mm to 90mm (hereinafter referred to as "hand version").
-
-The second is a CNC mill conversion with Y axis extended from 46mm to 90mm (hereinafter referred to as "CNC version").
+I also include parts for if you just want to extend the Y axis for hand milling only. I'm sure you can figure it out.
 
 ### What is a Proxxon MF70?
 
@@ -42,12 +40,6 @@ There are a number of complicated DIY conversions out there, but I wasn't happy 
 
 I include McMaster links for all the parts below, if you want to order them all in one go. If you want to save money you can find similar parts on Amazon or eBay, though there is no way to permalink them.
 
-#### For hand version
-* 6 x M3 countersunk screws, 12mm, fully tapped
-* 6 x M3 square nut, 5.5mm x 5.5mm x 1.8mm
-* 6mm x 12mm x 1.5mm oil-impregnated brass thrust washer
-
-#### For CNC version
 * 2 x M3 threaded rod cut to 125+4+4+0.5+0.5+5+5 for X axis
 * 2 x M3 threaded rod cut to ? for Y axis
 * 6 x M3 countersunk screws, 12mm, fully tapped
@@ -59,9 +51,7 @@ I include McMaster links for all the parts below, if you want to order them all 
 
 ### 3D printed parts
 
-For hand mill with Y axis extension, print all the parts starting with **all-** and **hand-**.
-
-For CNC mill with Y axis extension, print all the parts starting with **all-** and **cnc-**.
+For the CNC conversion, print all the parts starting with **all-** and **cnc-** in the **stl/** directory. (If you just want a hand mill with Y axis extension, print everything starting with **all-** and **hand-**.)
 
 Print everything at 100% infill with PETG, ABS, nylon, or other good material. I highly recommend you do not use PLA.
 
@@ -71,13 +61,9 @@ I recommend printing parts with large surface area (all-y-channel, cnc-x-rightpl
 
 ## Instructions
 
-First, complete part 0 for both versions. Then complete the respective version of part 1 below depending on whether you are doing the hand version or CNC version.
+Remove this thick plastic cover on the Z axis, which gives the Y axis an extra 3mm of clearance to the back side of the mill.
 
-### Part 0: for both versions
-
-Remove this Z axis cover, which gives an extra 3mm of clearance to the back side of the mill.
-
-Remove the 2 axis stage and take it apart until you have the X axis looking like this. Note that the "Proxxon" logo is on the front side, but we will take that off later, so you may want to mark the front side of the aluminum plate with a grease pen or scribe. The aluminum plate is subtly NOT symmetrical.
+Remove the 2 axis stage and take it apart until you have the X axis looking like this. Note that the "Proxxon" logo is on the front side, but we will take that off later, so you may want to mark the front side of the aluminum plate with a grease pen or scribe. Note that Proxxon's X and Y axis aluminum plates are intentionally NOT perfectly symmetrical by design, so when you put them back together the direction matters or you will not be able to assemble it.
 
 Drop in the 3D printed "all-y-channel". It should fit snugly. You may have to slightly loosen the screws and tighten them back.
 
@@ -91,21 +77,10 @@ Use countersunk M3 screws to fix the channel in place.
 
 Now remove the end pieces of the Y axis.
 
-### Part 1: hand version
+If you are not doing a CNC conversion and only needing a hand mill with extended Y axis, STOP HERE and put everything back together with **hand-y-frontplate** on the front, **all-y-backplate** on the back, use brass lubricated washers on both sides, and replace the factory Y axis knob dial with the reduced-diameter **hand-y-knob** which will allow the carriage to clear it. You can use paint stick to make the markings on the dial more visible. If you are building the CNC version, continue.
 
-Install all-y-backplate on the back side and hand-y-frontplate on the front side using the original self-tapping screws. Note the tiny dot below the axis on each plate, they should both face inwards (toward the aluminum plate).
-
-Replace the manufacturer knob dial with 3D printed hand-y-knob which has a reduced diameter and will allow the stage to clear it on the top side. You can use paint stick to make the markings more visible.
-
-Put the Y axis back together using one lubricated brass washer on each side.
-
-Put everything else back together.
-
-### Part 1: CNC version
-
-Using a 120mm extra-long M3 drill bit, carefully drill out the 2.5mm channels in both X and Y axes to 3mm. We will put M3 threaded rods though these channels which will hold things much more securely than the original self-tapping screws. Work the drill from both sides to get all the way through the channel.
+Using a 120mm extra-long M3 drill bit, carefully drill out the 2.5mm channels in both X and Y axes to 3mm. We will no longer use the self-tapping screws and instead put M3 threaded rods though these channels which will hold things much more securely. Work the drill from both sides to get all the way through the channel.
 
 Install all-y-backplate on the back side. Install cnc-y-frontplate on the front side. Use the threaded rods, washers and M3 locknuts to tighten them all in place.
-
 
 
