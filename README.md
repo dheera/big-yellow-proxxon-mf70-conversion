@@ -35,22 +35,25 @@ There are a number of complicated DIY conversions out there that do address the 
 * Drill press
 * Normal 3mm drill bit
 * Extra long (120mm long) 3mm drill bit
-* Countersink bit
+* 90-degree countersink bit
 * Dremel with cutting disc, or other tool that can cut threaded rods
 
 ## Off-the-shelf parts
 
 I include McMaster links for all the parts below for convenience, if you want to order them all in one go, and to serve as permalinks for what the exact part should look like. However, McMaster is expensive. If you want to save money you can find equivalent parts for almost everything on Amazon or eBay, though there is no way to permalink them as the suppliers are constantly changing.
 
-* 2 x M3 threaded rod cut to 125+4+4+0.5+0.5+5+5 for X axis
-* 2 x M3 threaded rod cut to ? for Y axis
-* 6 x M3 countersunk screws, 12mm, fully tapped
-* 6 x M3 square nut, 5.5mm x 5.5mm x 1.8mm
-* 4 x 6x12x1.5 oil-impregnated brass thrust washer
-* 1 x 6x13x7 spacer (if you can't find 7mm, look for 5mm + 2mm)
-* 12 x M5 flat head (countersunk) screws
-* AliExpress MF70 conversion shaft couplers -- you only need the "round parts" from the conversion kit -- there are some sellers which will sell only those parts to you
-* 3 x good quality NEMA23 motors with 5mm mounting holes (some have 4mm holes, but this kit is designed for 5mm)
+* 4 x M3 threaded rod, 2 cut to ? for X axis and 2 cut to ? for Y axis [McMaster](https://www.mcmaster.com/90024A218/)
+* 6 x M3 square nut, 5.5mm x 5.5mm x 1.8mm [McMaster](https://www.mcmaster.com/97258A101/)
+* 1 x ID=6 OD=12 L=1.5 oil-impregnated brass thrust washer [McMaster](https://www.mcmaster.com/7421K42/)
+* 5 x ID=6 OD=12 L=4.5 thrust ball bearings [McMaster](https://www.mcmaster.com/7806K58/)
+* 2 x ID=6 OD=13 L=4 steel spacer [McMaster](https://www.mcmaster.com/92871A241/)
+* 8 x ID=5 OD=10 L=35 aluminum spacer [McMaster](https://www.mcmaster.com/94669A148/)
+* 4 x ID=5 OD=10 L=45 aluminum spacer [McMaster](https://www.mcmaster.com/94669A152/)
+* 4 x M5 L=50 flat head countersunk screws [McMaster](https://www.mcmaster.com/92125A228/)
+* 4 x M5 L=60 flat head countersunk screws [McMaster](https://www.mcmaster.com/92125A230/)
+* 4 x M5 L=75 flat head countersunk screws [McMaster](https://www.mcmaster.com/92125A109/)
+* AliExpress MF70 NEMA23 conversion shaft couplers -- you only need the "round parts" from the conversion kit -- there are some sellers which will sell only those parts to you [AliExpress](https://www.aliexpress.us/w/wholesale-mf70-nema23.html?spm=a2g0o.productlist.search.0)
+* 3 x good quality NEMA23 motors with 5mm mounting holes (some have 4mm holes, but this kit is designed for 5mm) [OpenBuilds](https://openbuildspartstore.com/nema-23-stepper-motor/) | [StepperOnline](https://www.omc-stepperonline.com/p-series-nema-23-bipolar-1-8deg-1-26nm-178-4oz-in-2-8a-2-5v-57x57x56mm-4-wires-23hp22-2804s) 
 
 ### 3D printed parts
 
@@ -70,19 +73,19 @@ Remove this thick plastic cover on the Z axis, which gives the Y axis an extra 3
 
 Remove the 2 axis stage and take it apart until you have the X axis looking like this. Note that the "Proxxon" logo is on the front side, but we will take that off later, so you may want to mark the front side of the aluminum plate with a grease pen or scribe. Note that Proxxon's X and Y axis aluminum plates are intentionally NOT perfectly symmetrical by design, so when you put them back together the direction matters or you will not be able to assemble it.
 
-Drop in the 3D printed "all-y-channel". It should fit snugly. You may have to slightly loosen the screws and tighten them back.
+Drop in the 3D printed "all-y-channel". It should fit snugly. Note that the channel is not symmetrical and there is a correct front and back side. You may want to mark the front end of this as well for convenience. You may have to slightly loosen the screws slightly to drop the channel in. Don't take them off fully yet, to ensure the holes you drill in the next step are properly aligned.
 
-With a drill press and regular 3mm drill bit, drill out the 6 marked holes in the channel all the way down and drill fully through the aluminum plate.
+With a drill press and regular 3mm drill bit, drill out the 6 marked holes in the 3D printed channel all the way down and drill fully through the aluminum plate below. You can also, if you prefer, just barely touch the aluminum to mark the center, remove the channel, and then drill out the aluminum, to avoid aluminum chips accumulating inside the square nut inserts.
 
-Countersink the holes from the back of the aluminum plate with a 90 degree countersink bit.
+Remove the manufacturer-supplied end pieces of the Y axis. These will not be needed anymore. Countersink the holes from the back of the aluminum plate with a 90 degree countersink bit.
 
-Remove "all-y-channel", insert the 6 square threaded M3 nuts from the side, and place back.
+Assuming you are building the CNC version, use the 120mm extra-long M3 drill bit to carefully drill out the 2.5mm channels to 3mm. Use plenty of machining oil and go slowly to avoid breaking the bit. (We will no longer use the self-tapping screws and instead put M3 threaded rods though these channels which will hold things much more securely.) Work the drill from both sides to get all the way through the channel. If you are just building a hand mill with extended Y axis, you do not need to do this, the self-tapping screws are good enough.
 
-Use countersunk M3 screws to fix the channel in place.
+Remove "all-y-channel", make sure the 6 slots on the side are clear of chips, and insert the 6 square threaded M3 nuts from the side. Slide into the aluminum plate together with the carriage, brass spacer that goes with the carriage, and delrin nut, and use countersunk M3 screws to fix the 3D printed channel in place. With the Delrin nut in place, the carriage should be constrained by the ends of the 3D printed channel, and should slide smoothly from end to end. Make sure it does not have any resistance at the metal-plastic boundaries. If it does, your 3D printer may not be dimensionally accurate and you may have to do some sanding.
 
-Now remove the end pieces of the Y axis.
+If you are building a hand mill with extended Y axis and not doing CNC conversion, STOP HERE and put everything back together with **hand-y-frontplate** on the front, **all-y-backplate** on the back, use brass lubricated washers on both sides, and replace the factory Y axis knob dial with the reduced-diameter **hand-y-knob** which will allow the carriage to clear it. You can use paint stick to make the markings on the dial more visible. You are done.
 
-If you are not doing a CNC conversion and only needing a hand mill with extended Y axis, STOP HERE and put everything back together with **hand-y-frontplate** on the front, **all-y-backplate** on the back, use brass lubricated washers on both sides, and replace the factory Y axis knob dial with the reduced-diameter **hand-y-knob** which will allow the carriage to clear it. You can use paint stick to make the markings on the dial more visible. If you are building the CNC version, continue.
+If you are building the CNC version, continue.
 
 Using a 120mm extra-long M3 drill bit, carefully drill out the 2.5mm channels in both X and Y axes to 3mm. We will no longer use the self-tapping screws and instead put M3 threaded rods though these channels which will hold things much more securely. Work the drill from both sides to get all the way through the channel.
 
