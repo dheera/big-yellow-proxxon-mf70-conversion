@@ -1,19 +1,3 @@
-/*translate([-111.3,-10,0])
-import("/home/dheera/.cache/.fr-WocyC8/expatmodeller/proxxon-mf-70-cnc-conversion-with-extended-y-axis-movement/Z_endplate.stl");
-
-
-translate([32.5,-10.5,0])
-cylinder(d=1,h=100);
-
-
-translate([20,55.25,0])
-cylinder(d=1,h=100);
-
-
-translate([1,60.5,0])
-cylinder(d=1,h=100);
-*/
-
 module trackcutout() {
 tW1=52.5;
 tD=8.5;

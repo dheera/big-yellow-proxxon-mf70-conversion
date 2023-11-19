@@ -13,7 +13,7 @@ difference () {
                 scale([0.98,0.96,H/3])
                 translate([21.4,-6.3,0])
                 rotate([0,0,180])
-                import("profile_outer.stl");
+                import("include/profile_outer.stl");
                 
                 
                 for(i=[-1,1])
@@ -40,6 +40,7 @@ difference () {
             
             difference() {
                 cube_center([61,61,DH],r=4);
+                rotate([2,0,0])
                 translate([0,20.5,3])
                 cube_center([61,61,50]);
                 
@@ -48,10 +49,13 @@ difference () {
                 cube_center([61,61,10]);
                 
                 for(i=[-47.1/2,47.1/2])
-                    translate([i,47.1/2,0]) {
+                    translate([i,47.1/2,0.0]) {
                     cylinder(d=5.3,h=100,$fn=64);
-                        translate([0,0,3-2.8])
+                        translate([0,0,.5])
                         cylinder(d1=5.3,d2=10.3,h=2.8,$fn=64);
+                        
+                        translate([0,0,.5+2.8])
+                        cylinder(d=10.3,h=2.8,$fn=64);
                     }
                     
                     for(i=[-47.1/2,47.1/2])
