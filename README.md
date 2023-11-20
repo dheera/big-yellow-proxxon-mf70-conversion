@@ -24,13 +24,15 @@ The Robotpark conversion has the same issues as the AliExpress kit at a 5X-10X m
 
 Proxxon's own CNC-ready MF70 allows a greater Y axis travel of 70mm, which is better than the 46mm, but I am achieving 90mm here. It also does not address the Z axis height at all.
 
-The Bubblegum conversion is a nicely designed kit but addresses neither Y nor Z axis limitations. I take a couple inspirations from it.
+The [Bubblegum](https://www.youtube.com/playlist?list=PLYxf6JVpXtyO_PyjGGxkbttEl6JiWM5uO) conversion is a nicely designed kit but addresses neither Y nor Z axis limitations. I take a couple inspirations from it.
 
 [This](http://www.jarkman.co.uk/catalog/cnc/mf70.htm) conversion involves taking off the knobs fully and purchasing additional shaft couplers, which I also didn't want to do, though if you'd like to do that, you can still use the mounting parts in this repo, and might just need to adjust the M5 spacer lengths.
 
 [This](https://www.thingiverse.com/thing:4375769) conversion is a lot of work and addresses backlash but does not solve the Y or Z axis limitations.
 
-There are a number of other complicated DIY conversions out there that do address the Y and Z axis limitations, but I wasn't happy with any of their designs or complexity. Some involve 5 billion parts, some involve machining metal parts (which is great *after* you have a CNC mill but not before), some people have effectively replaced the entire machine with conversions which is too much for me (If I wanted to do that I might as well build the machine from scratch).
+There are a number of other complicated DIY conversions out there that do address the Y and Z axis limitations, but I wasn't happy with any of their designs or complexity. Some involve 5 billion parts, some involve machining metal parts (which is great *after* you have a CNC mill but not before), [some people](https://www.youtube.com/watch?v=0PCznyqI1Co) have effectively replaced the entire machine, which is impressive and I have a lot of respect for, but it is too much for me (If I wanted to do that I might as well build the machine from scratch).
+
+I wanted this to extend the Y and Z axis and stick to 3D printed parts and off-the-shelf parts while keeping the cost of conversion well under the cost of the mill itself.
 
 ## Tools
 * 3D printer and PETG, ABS, nylon, or other strong and chemically-resistant filament (do not use PLA!)
