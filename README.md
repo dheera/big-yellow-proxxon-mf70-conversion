@@ -102,7 +102,7 @@ If you are building the CNC version, continue.
 
 Install all-y-backplate on the back side. Install cnc-y-frontplate on the front side. Use the threaded rods, washers and M3 locknuts to tighten them all in place.
 
-Install the Y axis shaft. Use a ball bearing and a 5mm spacer on the front side, and a bronze oil-impregnated washer and a lock nut on the back side. (I would have used a bearing on the back side but the shaft isn't long enough.) Install the AliExpress shaft coupler.
+Install the Y axis shaft. Use a ball bearing and a 5mm spacer on the front side, and a bronze oil-impregnated washer and a lock nut on the back side. (I would have used a ball bearing on the back side but the shaft isn't long enough.) Install the AliExpress shaft coupler.
 
 Put the M5 countersunk screws in and entire Y axis back on the mill. Make sure to push the bottom against the cast iron before tightening so it is properly supported.
 
@@ -112,7 +112,7 @@ Install the stepper motor. Use **cnc-stepper-nut-tool** to help you, the lock nu
 
 Insert the original manufacturer's metal plates into the X axis parts.
 
-Then reassemble the X axis, similar to how you did the Y axis. The only difference is that the Y axis uses a 2mm spacer instead of the 5mm spacer. In this picture my 2mm spacer didn't arrive so I stacked 2 washers, but I recommend avoiding that practice.
+Then reassemble the X axis, similar to how you did the Y axis. Roller bearing goes near the shaft coupler (right) side, oil-impregnated bronze washer goes on the lock nut (left) side. The only difference is that the Y axis uses a 2mm spacer instead of the 5mm spacer. In this picture my 2mm spacer didn't arrive so I stacked 2 washers, but I recommend avoiding that practice.
 
 Install the steppers.
 
