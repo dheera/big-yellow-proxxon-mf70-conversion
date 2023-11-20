@@ -4,6 +4,8 @@ This repo is a Proxxon MF70 CNC conversion based on 3D printed and off-the-shelf
 
 (I also included a couple parts for if you just want to extend the Y axis for hand milling only, but CNC is the main point of this repo.)
 
+I'm lazy to create a name for it, but in the spirit of the [Bubblegum](https://www.youtube.com/playlist?list=PLYxf6JVpXtyO_PyjGGxkbttEl6JiWM5uO) conversion I printed all the parts in yellow so I'm just calling it that.
+
 ### What is a Proxxon MF70?
 
 If you are here you probably already have one, but the [Proxxon MF70](https://www.proxxon.com/us/micromot/37110.php) is a cheap, tiny 3-axis mill that sells for around USD 400, sometimes as cheap as 200-300 on Craigslist or eBay and is highly popular with hobbyists living in small spaces, especially for CNC conversions. The full machine with CNC conversion and enclosure is no larger than a typical 3D printer.
