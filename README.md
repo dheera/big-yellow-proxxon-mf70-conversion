@@ -8,11 +8,13 @@ I'm lazy to create a name for it, but in the spirit of the [Bubblegum](https://w
 
 ### What is a Proxxon MF70?
 
-If you are here you probably already have one, but the [Proxxon MF70](https://www.proxxon.com/us/micromot/37110.php) is a cheap, tiny 3-axis mill that sells for around USD 400, sometimes as cheap as 200-300 on Craigslist or eBay and is highly popular with hobbyists living in small spaces, especially for CNC conversions. The full machine with CNC conversion and enclosure is no larger than a typical 3D printer.
+If you are here you probably already have one, but the [Proxxon MF70](https://www.proxxon.com/us/micromot/37110.php) is a cheap, tiny 3-axis mill that sells for around USD 400, sometimes as cheap as 200-300 on Craigslist or eBay and is been a popular target of CNC conversions by hobbyists living in small spaces. The full machine with CNC conversion and enclosure is no larger than a typical 3D printer.
 
-This mill has a number of limitations, but perhaps the biggest of which is that the Y axis is only limited to 46mm of travel. It is fairly straightforward to extend this Y axis to 90mm. The Z axis is also limiting as it only has 70mm of travel, starts from uselessly low, which makes it hard to use a 4th ("A" or rotational) axis. Both of these limitations are addressed in this conversion.
+This mill has a number of limitations, but perhaps the biggest of which is that the Y axis is only limited to 46mm of travel. It is fairly straightforward to extend this Y axis to 90mm. The Z axis is also limiting as it only has 70mm of travel, starts from uselessly low, which makes it hard to use a 4th ("A" or rotational) axis. **Both of these limitations are addressed in this conversion.**
 
-There are other limitations with this cheap mill but not addressed here. If you have a 3D printer to print the parts in this repo, and want a mini CNC mill for $600 total, this is it. If you want to spend $1200 or more, there are better options available.
+There are other limitations with this cheap mill but not addressed here. (Anti-backlash nuts, brushless motor upgrade, new spindle, ACME screws, ball screws, etc. -- but you can still do these things on top of this conversion if you wish.)
+
+If you have a 3D printer to print the parts in this repo, and want a mini **CNC mill for $500-$600 total**, this is it. If you want to spend $1200 or more, there are better options available.
 
 ### Why another MF70 conversion?
 
