@@ -196,6 +196,10 @@ Put the covers over the couplers to help prevent chips landing inside. They shou
 
 ![step0300](/images/step0300.jpg?raw=true)
 
+Finished.
+
+![complete conversion](/images/complete0.jpg?raw=true "complete conversion")
+
 You can build an enclosure if you want. I highly recommend it.
 
 ![complete conversion](/images/enclosure.jpg?raw=true "complete conversion")
