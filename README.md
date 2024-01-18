@@ -2,7 +2,7 @@
 
 ![complete conversion](/images/complete0.jpg?raw=true "complete conversion")
 
-This repo is a Proxxon MF70 mill CNC conversion based on 3D printed and off-the-shelf mechanical parts, with **Y axis extended from 46mm to 90mm** and **Z axis raised by 15mm**.
+This repo is a Proxxon MF70 mill CNC conversion based on 3D printed and off-the-shelf mechanical parts, with **Y axis extended from 46mm to 90mm** and **Z axis extended by 15mm**.
 
 I also included a couple parts for if you just want to extend the Y axis for hand milling only, but CNC is the main point of this repo.
 
