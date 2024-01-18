@@ -159,26 +159,41 @@ Install the stepper motor. Use **cnc-stepper-nut-tool** to help you, the lock nu
 
 ### Take apart the Z axis
 
-Remove the 4 M3 screws on top of the Z axis and take it apart. Use **cnc-z-nut-tool** to help you remove the lock nut that holds the Z axis lead screw in place.
+Remove thick plastic cover at base of the mill, which will give us additional clearance to the back of the mill.
 
-Remove this thick plastic cover, which will give us additional clearance to the back of the mill.
+Remove the 4 M3 screws on top of the Z axis. CAREFULLY turn until the cap and lead screw comes loose from the milling head, taking care not to drop the milling head.
+
+Proceed to remove the locknut that holds the Z axis lead screw in place. Use **cnc-z-nut-tool** to help you remove the lock nut that holds the Z axis lead screw in place.
+
+![step0200](/images/step0200.jpg?raw=true)
 
 ### Reassemble the Z axis
 
-First, I recommend putting some tape over the Z axis extrusion while you work so that you don't drop parts and tools down the mill.
+Now reassemble the Z axis, using both parts A and B, and using two ball bearings, one on each side of the 3D printed parts.
 
-Now reassemble the Z axis, using both parts A and B, and using two ball bearings, one on each side of the 3D printed parts. Secure the lock nut in place. Tighten until there is no backlash but do not over-tighten.
+![step0210](/images/step0210.jpg?raw=true)
 
-Install the AliExpress shaft coupler.
+Secure the lock nut in place. Tighten until there is no backlash but do not over-tighten. Again you can use the same **cnc-z-nut-tool** to help you.
 
-Install the stepper motor.
+![step0220](/images/step0220.jpg?raw=true)
+
+Install the AliExpress shaft coupler and stepper motor as usual.
+
+![step0230](/images/step0230.jpg?raw=true)
 
 Install the Z axis back on with the head. Put 4 new M3 screws at the top to secure it.
 
-Insert this Z axis stop piece into the channel, which will stop the head before it falls out of the Z axis leadscrew. If you wish you can put a dot of adhesive to hold it in place, but it will hold itself behind the black plastic tab just fine.
+![step0240](/images/step0240.jpg?raw=true)
+
+IMPORTANT! Insert this Z axis stop piece into the channel, which will stop the head before it falls out of the Z axis leadscrew. If you wish you can put a dot of adhesive to hold it in place, but it will hold itself behind the black plastic tab just fine.
+
+![step0250](/images/step0250.jpg?raw=true)
 
 ### Final touches
 
 Put the covers over the couplers to help prevent chips landing inside. They should snap in place.
 
-You can build an enclosure if you want.
+![step0300](/images/step0300.jpg?raw=true)
+
+You can build an enclosure if you want. I highly recommend it.
+
