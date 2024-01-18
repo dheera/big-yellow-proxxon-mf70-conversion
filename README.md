@@ -1,6 +1,6 @@
 # Big Yellow Proxxon MF70 CNC conversion
 
-![complete conversion](/images/complete.jpg?raw=true "complete conversion")
+![complete conversion](/images/complete0.jpg?raw=true "complete conversion")
 
 This repo is a Proxxon MF70 mill CNC conversion based on 3D printed and off-the-shelf mechanical parts, with **Y axis extended from 46mm to 90mm** and **Z axis raised by 15mm**.
 
@@ -197,3 +197,4 @@ Put the covers over the couplers to help prevent chips landing inside. They shou
 
 You can build an enclosure if you want. I highly recommend it.
 
+![complete conversion](/images/enclosure.jpg?raw=true "complete conversion")
