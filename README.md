@@ -62,6 +62,7 @@ I include McMaster links for all the parts below for convenience, if you want to
 * 4 x M5 L=50 flat head countersunk screws [McMaster](https://www.mcmaster.com/92125A228/)
 * 4 x M5 L=65 flat head countersunk screws [McMaster](https://www.mcmaster.com/92125A230/)
 * 4 x M5 L=75 flat head countersunk screws [McMaster](https://www.mcmaster.com/92125A109/) -- if you want to save money you can also just get a box of L=75 and skip the L=50 and L=65 above, but you'll have a hell of a time tightening lock nuts over the extra length
+* 4 x M3 L=50 hex bolt socket cap screws
 * AliExpress MF70 NEMA23 conversion shaft couplers -- you only need the "round parts" from the conversion kit -- there are some sellers which will sell only those parts to you [AliExpress](https://www.aliexpress.us/w/wholesale-mf70-nema23.html?spm=a2g0o.productlist.search.0)
 * 3 x good quality NEMA23 motors with 5mm mounting holes (some have 4mm holes, but this kit is designed for 5mm) [OpenBuilds](https://openbuildspartstore.com/nema-23-stepper-motor/) | [StepperOnline](https://www.omc-stepperonline.com/p-series-nema-23-bipolar-1-8deg-1-26nm-178-4oz-in-2-8a-2-5v-57x57x56mm-4-wires-23hp22-2804s) 
 
@@ -181,7 +182,7 @@ Install the AliExpress shaft coupler and stepper motor as usual.
 
 ![step0230](/images/step0230.jpg?raw=true)
 
-Install the Z axis back on with the head. Put 4 new M3 screws at the top to secure it.
+Install the Z axis back on with the head. Put 4 new M3 50mm long bolts to secure it (the original ones will be too short).
 
 ![step0240](/images/step0240.jpg?raw=true)
 
