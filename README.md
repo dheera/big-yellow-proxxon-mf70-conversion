@@ -89,15 +89,11 @@ With a drill press and regular 3mm drill bit, drill out the 6 marked holes in th
 
 Remove the manufacturer-supplied end pieces of the Y axis. These will not be needed anymore. Countersink the holes from the back of the aluminum plate with a 90 degree countersink bit.
 
-Assuming you are building the CNC version, use the 120mm extra-long M3 drill bit to carefully drill out the 2.5mm channels to 3mm. Use plenty of machining oil and go slowly to avoid breaking the bit. (We will no longer use the self-tapping screws and instead put M3 threaded rods though these channels which will hold things much more securely.) Work the drill from both sides to get all the way through the channel. If you are just building a hand mill with extended Y axis, you do not need to do this, the self-tapping screws are good enough.
+Use the 120mm extra-long M3 drill bit to carefully drill out the 2.5mm channels to 3mm. Use plenty of machining oil and go slowly to avoid breaking the bit. (We will no longer use the self-tapping screws and instead put M3 threaded rods though these channels which will hold things much more securely.) Work the drill from both sides to get all the way through the channel.
 
 Remove "all-y-channel", make sure the 6 slots on the side are clear of chips, and insert the 6 square threaded M3 nuts from the side. Slide into the aluminum plate together with the carriage, brass spacer that goes with the carriage, and delrin nut, and use countersunk M3 screws to fix the 3D printed channel in place. With the Delrin nut in place, the carriage should be constrained by the ends of the 3D printed channel, and should slide smoothly from end to end. Make sure it does not have any resistance at the metal-plastic boundaries. If it does, your 3D printer may not be dimensionally accurate and you may have to do some sanding.
 
 ### Reassemble the Y axis
-
-If you are building a hand mill with extended Y axis and not doing CNC conversion, STOP HERE and put everything back together with **hand-y-frontplate** on the front, **all-y-backplate** on the back, use brass lubricated washers on both sides, and replace the factory Y axis knob dial with the reduced-diameter **hand-y-knob** which will allow the carriage to clear it. You can use paint stick to make the markings on the dial more visible. You are done.
-
-If you are building the CNC version, continue.
 
 Install all-y-backplate on the back side. Install cnc-y-frontplate on the front side. Use the threaded rods, washers and M3 locknuts to tighten them all in place.
 
@@ -108,6 +104,10 @@ Install the AliExpress shaft coupler.
 Put the M5 countersunk screws in and entire Y axis back on the mill. Make sure to push the bottom against the cast iron before tightening so it is properly supported.
 
 Install the stepper motor. Use **cnc-stepper-nut-tool** to help you, the lock nuts can be annoying.
+
+### Modify the X channel
+
+Use the 120mm extra-long M3 drill bit to carefully drill out the 2.5mm channels to 3mm. Use plenty of machining oil and go slowly to avoid breaking the bit. (We will no longer use the self-tapping screws and instead put M3 threaded rods though these channels which will hold things much more securely.) Work the drill from both sides to get all the way through the channel.
 
 ### Reassemble the X axis
 
