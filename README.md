@@ -43,6 +43,7 @@ I wanted this to extend the Y and Z axis and stick to 3D printed parts and off-t
 * Extra long (120mm long) 3mm drill bit
 * 90-degree countersink bit
 * Dremel with cutting disc, or other tool that can cut threaded rods
+* Blue Loctite
 
 ## Off-the-shelf parts
 
@@ -76,13 +77,9 @@ I recommend printing parts with large surface area (all-y-channel, cnc-x-rightpl
 
 ## Instructions
 
-### Taking it apart
+### Take apart the X and Y axes
 
-Remove the 2 axis stage, take apart the Y axis, and then take apart the X axis until you are down to this. Note that the "Proxxon" logo is on the front side, but we will take that off later, so you may want to mark the front side of the aluminum plate with a grease pen or scribe. Note that Proxxon's X and Y axis aluminum plates are intentionally NOT perfectly symmetrical by design, so when you put them back together the direction matters or you will not be able to assemble it.
-
-Remove the 4 M3 screws on top of the Z axis and take it apart. Use **cnc-z-nut-tool** to help you remove the lock nut that holds the Z axis lead screw in place.
-
-Remove this thick plastic cover, which will give us additional clearance to the back of the mill.
+Remove the 2 axis stage, take apart the Y axis (noting that the lead screw is left-threaded), and then take apart the X axis (right-threaded) until you are down to this. Note that the "Proxxon" logo is on the front side, but we will take that off later, so you may want to mark the front side of the aluminum plate with a grease pen or scribe. Note that Proxxon's X and Y axis aluminum plates are intentionally NOT perfectly symmetrical by design, so when you put them back together the direction matters or you will not be able to assemble it.
 
 ### Modify the Y channel
 
@@ -104,7 +101,9 @@ If you are building the CNC version, continue.
 
 Install all-y-backplate on the back side. Install cnc-y-frontplate on the front side. Use the threaded rods, washers and M3 locknuts to tighten them all in place.
 
-Install the Y axis shaft. Use a ball bearing and a 5mm spacer on the front side, and a bronze oil-impregnated washer and a lock nut on the back side. (I would have used a ball bearing on the back side but the shaft isn't long enough.) Install the AliExpress shaft coupler.
+Install the Y axis shaft. Use a ball bearing and a 5mm spacer on the front side, and a ball bearing on the back side. Put the (left-threaded) nut back on with a dot of blue Loctite. Although it is a nylon locknut, there is not enough thread left to engage the nylon.
+
+Install the AliExpress shaft coupler.
 
 Put the M5 countersunk screws in and entire Y axis back on the mill. Make sure to push the bottom against the cast iron before tightening so it is properly supported.
 
@@ -114,15 +113,25 @@ Install the stepper motor. Use **cnc-stepper-nut-tool** to help you, the lock nu
 
 Insert the original manufacturer's metal plates into the X axis parts.
 
-Then reassemble the X axis, similar to how you did the Y axis. Roller bearing goes near the shaft coupler (right) side, oil-impregnated bronze washer goes on the lock nut (left) side. The only difference is that the Y axis uses a 2mm spacer instead of the 5mm spacer. In this picture my 2mm spacer didn't arrive so I stacked 2 washers, but I recommend avoiding that practice.
+Then reassemble the X axis, similar to how you did the Y axis. Roller bearing goes near the shaft coupler (right) side, another roller bearing goes on the left side along with the lock nut. Again you will want to use a dot of Loctite since there is not enough thread to engage the nylon. The only difference is that the Y axis uses a 2mm spacer instead of the 5mm spacer. In this picture my 2mm spacer didn't arrive so I stacked 2 washers, but I recommend avoiding that practice.
 
-Install the steppers.
+Install the AliExpress shaft coupler.
+
+Install the stepper motor. Use **cnc-stepper-nut-tool** to help you, the lock nuts can be annoying.
+
+### Take apart the Z axis
+
+Remove the 4 M3 screws on top of the Z axis and take it apart. Use **cnc-z-nut-tool** to help you remove the lock nut that holds the Z axis lead screw in place.
+
+Remove this thick plastic cover, which will give us additional clearance to the back of the mill.
 
 ### Reassemble the Z axis
 
 First, I recommend putting some tape over the Z axis extrusion while you work so that you don't drop parts and tools down the mill.
 
-Now reassemble the Z axis, using both parts A and B, and using two ball bearings (one on each side of the 3D printed parts). Secure the lock nut in place. Tighten until there is no backlash but do not over-tighten.
+Now reassemble the Z axis, using both parts A and B, and using two ball bearings, one on each side of the 3D printed parts. Secure the lock nut in place. Tighten until there is no backlash but do not over-tighten.
+
+Install the AliExpress shaft coupler.
 
 Install the stepper motor.
 
