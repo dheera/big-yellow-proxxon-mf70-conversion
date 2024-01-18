@@ -91,37 +91,71 @@ Drop in the 3D printed "all-y-channel". It should fit snugly. Note that the chan
 
 With a drill press and regular 3mm drill bit, drill out the 6 marked holes in the 3D printed channel all the way down and drill fully through the aluminum plate below. You can also, if you prefer, just barely touch the aluminum to mark the center, remove the channel, and then drill out the aluminum, to avoid aluminum chips accumulating inside the square nut inserts.
 
-Remove the manufacturer-supplied end pieces of the Y axis. These will not be needed anymore. Countersink the holes from the back of the aluminum plate with a 90 degree countersink bit.
+![step0020](/images/step0020.jpg?raw=true)
 
-Use the 120mm extra-long M3 drill bit to carefully drill out the 2.5mm channels to 3mm. Use plenty of machining oil and go slowly to avoid breaking the bit. (We will no longer use the self-tapping screws and instead put M3 threaded rods though these channels which will hold things much more securely.) Work the drill from both sides to get all the way through the channel.
+![step0030](/images/step0030.jpg?raw=true)
 
-Remove "all-y-channel", make sure the 6 slots on the side are clear of chips, and insert the 6 square threaded M3 nuts from the side. Slide into the aluminum plate together with the carriage, brass spacer that goes with the carriage, and delrin nut, and use countersunk M3 screws to fix the 3D printed channel in place. With the Delrin nut in place, the carriage should be constrained by the ends of the 3D printed channel, and should slide smoothly from end to end. Make sure it does not have any resistance at the metal-plastic boundaries. If it does, your 3D printer may not be dimensionally accurate and you may have to do some sanding.
+Remove the manufacturer-supplied end pieces of the Y axis. These will not be needed anymore. Countersink the holes from the back of the aluminum plate with a 90 degree countersink bit and verify countersunk screws sit flush.
+
+![step0035](/images/step0035.jpg?raw=true)
+
+Remove "all-y-channel", make sure the 6 slots on the side are clear of chips, and insert the 6 square threaded M3 nuts from the side.
+
+![step0040](/images/step0040.jpg?raw=true)
+
+Slide into the aluminum plate together with the carriage, brass spacer that goes with the carriage, and delrin nut, and use countersunk M3 screws to fix the 3D printed channel in place. With the Delrin nut in place, the carriage should be constrained by the ends of the 3D printed channel, and should slide smoothly from end to end. Make sure it does not have any resistance at the metal-plastic boundaries. If it does, your 3D printer may not be dimensionally accurate and you may have to do some sanding.
+
+![step0050](/images/step0050.jpg?raw=true)
+
+Use the 120mm extra-long M3 drill bit to carefully drill out the 2.5mm channels to 3mm. Use plenty of machining oil and go slowly to avoid breaking the bit. (We will no longer use the self-tapping screws and instead put M3 threaded rods though these channels which will hold things much more securely.) Work the drill from both sides to get all the way through the channel. Unfortunately I did not take a picture of this step for the Y axis, so here is a picture of the same procedure on the X axis for reference, but do this for the Y axis:
+
+![step0110](/images/step0110.jpg?raw=true)
 
 ### Reassemble the Y axis
 
-Install all-y-backplate on the back side. Install cnc-y-frontplate on the front side. Use the threaded rods, washers and M3 locknuts to tighten them all in place.
+Install all-y-backplate on the back side. Install cnc-y-frontplate on the front side. Cut two M3 threaded rods to appropriate length with a Dremel. Use them along with washers and M3 locknuts on both sides to tighten them all in place. Make sure the rods do not protrude beyond the locknut on the front side.
 
-Install the Y axis shaft. Use a ball bearing and a 5mm spacer on the front side, and a ball bearing on the back side. Put the (left-threaded) nut back on with a dot of blue Loctite. Although it is a nylon locknut, there is not enough thread left to engage the nylon.
+![step0060](/images/step0060.jpg?raw=true)
 
-Install the AliExpress shaft coupler.
+Make sure the big green thing is able to move freely beyond the end of the aluminum plate without hitting any resistance over the plastic region. If there is friction you may have dimensional issues with your print.
+
+![step0070](/images/step0070.jpg?raw=true)
+
+Install the Y axis shaft. On the front side there should be a ball bearing (which comes as a hamburger of 3 components) and a 5mm spacer, and the AliExpress coupler should be installed as shown. On the back side there should be a ball bearing and the (left-threaded) locknut. You will need blue Loctite even though it is a nylon locknut because there will not be enough thread to engage the nylon anymore after this modification.
+
+![step0080](/images/step0080.jpg?raw=true)
 
 Put the M5 countersunk screws in and entire Y axis back on the mill. Make sure to push the bottom against the cast iron before tightening so it is properly supported.
 
+![step0090](/images/step0090.jpg?raw=true)
+
 Install the stepper motor. Use **cnc-stepper-nut-tool** to help you, the lock nuts can be annoying.
+
+![step0100](/images/step0100.jpg?raw=true)
 
 ### Modify the X axis plate
 
 Use the 120mm extra-long M3 drill bit to carefully drill out the 2.5mm channels to 3mm. Use plenty of machining oil and go slowly to avoid breaking the bit. (We will no longer use the self-tapping screws and instead put M3 threaded rods though these channels which will hold things much more securely.) Work the drill from both sides to get all the way through the channel.
 
+![step0110](/images/step0110.jpg?raw=true)
+
 ### Reassemble the X axis
 
-Insert the original manufacturer's metal plates into the X axis parts.
+Insert the original manufacturer's metal plates into the X axis parts. (I know, this is different from the Y axis; on the Y axis we discarded these plates but on the X axis we are going to use them.)
 
-Then reassemble the X axis, similar to how you did the Y axis. Roller bearing goes near the shaft coupler (right) side, another roller bearing goes on the left side along with the lock nut. Again you will want to use a dot of Loctite since there is not enough thread to engage the nylon. The only difference is that the Y axis uses a 2mm spacer instead of the 5mm spacer. In this picture my 2mm spacer didn't arrive so I stacked 2 washers, but I recommend avoiding that practice.
+![step0120](/images/step0120.jpg?raw=true)
 
-Install the AliExpress shaft coupler.
+Fix them in place with two M3 threaded rods cut to length.
+
+![step0130](/images/step0130.jpg?raw=true)
+
+Install the lead screw. On the right side you have a 2mm spacer (I use 2 washers here, but avoid the practice of stacking washers if you can), a hamburger roller bearing, and the AliExrpess shaft coupler installed. On the left you have a hamburger roller bearing and the lock nut. Again you need Loctite because the screw threads will not be enough to engage the nylon.
+
+![step0140](/images/step0140.jpg?raw=true)
 
 Install the stepper motor. Use **cnc-stepper-nut-tool** to help you, the lock nuts can be annoying.
+
+![step0150](/images/step0150.jpg?raw=true)
 
 ### Take apart the Z axis
 
