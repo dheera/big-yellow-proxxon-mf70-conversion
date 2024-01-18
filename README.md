@@ -83,9 +83,11 @@ I recommend printing parts with large surface area (all-y-channel, cnc-x-rightpl
 
 Remove the 2 axis stage, take apart the Y axis (noting that the lead screw is left-threaded), and then take apart the X axis (right-threaded) until you are down to this. Note that the "Proxxon" logo is on the front side, but we will take that off later, so you may want to mark the front side of the aluminum plate with a grease pen or scribe. Note that Proxxon's X and Y axis aluminum plates are intentionally NOT perfectly symmetrical by design, so when you put them back together the direction matters or you will not be able to assemble it.
 
-### Modify the Y axis plate
-
 Drop in the 3D printed "all-y-channel". It should fit snugly. Note that the channel is not symmetrical and there is a correct front and back side. You may want to mark the front end of this as well for convenience. You may have to slightly loosen the screws slightly to drop the channel in. Don't take them off fully yet, to ensure the holes you drill in the next step are properly aligned.
+
+![step0010](/images/step0010.jpg?raw=true)
+
+### Modify the Y axis plate
 
 With a drill press and regular 3mm drill bit, drill out the 6 marked holes in the 3D printed channel all the way down and drill fully through the aluminum plate below. You can also, if you prefer, just barely touch the aluminum to mark the center, remove the channel, and then drill out the aluminum, to avoid aluminum chips accumulating inside the square nut inserts.
 
