@@ -53,8 +53,7 @@ I include McMaster links for all the parts below for convenience, if you want to
 
 * 4 x M3 threaded rod, 2 cut to ? for X axis and 2 cut to ? for Y axis [McMaster](https://www.mcmaster.com/90024A218/) | [Amazon](https://www.amazon.com/s?k=m3+threaded+rod+300mm)
 * 6 x M3 square nut, 5.5mm x 5.5mm x 1.8mm [McMaster](https://www.mcmaster.com/97258A101/) | [Amazon](https://www.amazon.com/s?k=m3+square+nut+1.8mm)
-* 2 x ID=6 OD=12 L=1.5 oil-impregnated brass thrust washer [McMaster](https://www.mcmaster.com/7421K42/)
-* 4 x ID=6 OD=12 L=4.5 thrust ball bearings [McMaster](https://www.mcmaster.com/7806K58/) | [Amazon](https://www.amazon.com/s?k=6x12x4.5+ball+bearing)
+* 6 x ID=6 OD=12 L=4.5 thrust ball bearings [McMaster](https://www.mcmaster.com/7806K58/) | [Amazon](https://www.amazon.com/s?k=6x12x4.5+ball+bearing)
 * 1 x ID=6 OD=13 L=5 steel spacer [McMaster](https://www.mcmaster.com/92871A241/) 
 * 1 x ID=6 OD=13 L=2 steel spacer [McMaster](https://www.mcmaster.com/92871A198/)
 * 8 x ID=5 OD=10 L=35 aluminum spacer [McMaster](https://www.mcmaster.com/94669A148/)
