@@ -1,6 +1,6 @@
 # Big Yellow Proxxon MF70 CNC conversion
 
-![complete conversion](/images/complete0.jpg?raw=true "complete conversion")
+![complete conversion](/images/enclosure2.jpg?raw=true "complete conversion")
 
 This repo is a Proxxon MF70 mill CNC conversion based on 3D printed and off-the-shelf mechanical parts, with **Y axis extended from 46mm to 90mm** and **Z axis extended by 15mm**.
 
@@ -201,4 +201,8 @@ Finished.
 
 You can build an enclosure if you want. I highly recommend it.
 
-![complete conversion](/images/enclosure.jpg?raw=true "complete conversion")
+![complete conversion](/images/enclosure0.jpg?raw=true "complete conversion")
+
+Great for milling out tiny decorative items out of brass!
+
+![complete conversion](/images/enclosure2.jpg?raw=true "complete conversion")
