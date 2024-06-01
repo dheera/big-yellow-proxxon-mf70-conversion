@@ -205,4 +205,4 @@ You can build an enclosure if you want. I highly recommend it.
 
 Great for milling out tiny decorative items out of brass!
 
-![complete conversion](/images/enclosure2.jpg?raw=true "complete conversion")
+![complete conversion](/images/enclosure1.jpg?raw=true "complete conversion")
