@@ -207,4 +207,6 @@ Great for milling out tiny decorative items out of brass!
 
 ![complete conversion](/images/enclosure1.jpg?raw=true "complete conversion")
 
+Example of a finished piece I cut on this mill after tumbling in a vibratory tumbler for a few hours. The bas relief is generated from a picture from my travels with my partner with a custom computer vision pipeline.
+
 ![coin](/images/coin0.jpg?raw=true "complete conversion")
